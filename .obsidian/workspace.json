@@ -154,6 +154,16 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "bb9c18b403158bff",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
           }
         ],
         "currentTab": 4
@@ -174,7 +184,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8acede1bfc502428",
+  "active": "1eb973b98e4a37df",
   "lastOpenFiles": [
     "噪声降低方法在声波测井数据中的综合技术总结.md",
     "小波变换.md",

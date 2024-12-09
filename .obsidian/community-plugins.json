@@ -2,5 +2,8 @@
   "obsidian-image-auto-upload-plugin",
   "obsidian-excalidraw-plugin",
   "obsidian-git",
-  "obsidian-style-settings"
+  "obsidian-style-settings",
+  "obsidian-auto-link-title",
+  "cm-chs-patch",
+  "calendar"
 ]
