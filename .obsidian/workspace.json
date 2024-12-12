@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f23c70e01cc63487",
+        "id": "b6c618313336477a",
         "type": "tabs",
         "children": [
           {
-            "id": "9393b99a6a0eabce",
+            "id": "f4bd4533c81f0ff0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "小波变换.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "小波变换"
+              "title": "New tab"
             }
           }
         ]
@@ -138,11 +134,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "小波变换.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "小波变换 的大纲"
+              "title": "Outline"
             }
           },
           {
@@ -184,10 +178,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1eb973b98e4a37df",
+  "active": "8acede1bfc502428",
   "lastOpenFiles": [
-    "噪声降低方法在声波测井数据中的综合技术总结.md",
     "小波变换.md",
+    "fk滤波.md",
+    "噪声降低方法在声波测井数据中的综合技术总结.md",
     "Welcome.md"
   ]
 }
