@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b6c618313336477a",
+        "id": "16967aec227df5c0",
         "type": "tabs",
         "children": [
           {
-            "id": "f4bd4533c81f0ff0",
+            "id": "46aef53e34bbae76",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "拟牛顿法.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "拟牛顿法"
             }
           }
         ]
@@ -178,10 +182,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8acede1bfc502428",
+  "active": "46aef53e34bbae76",
   "lastOpenFiles": [
-    "小波变换.md",
+    "拟牛顿法.md",
     "fk滤波.md",
+    "小波变换.md",
     "噪声降低方法在声波测井数据中的综合技术总结.md",
     "Welcome.md"
   ]
