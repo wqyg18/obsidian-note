@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "cb49c644219a83fc",
+        "id": "6edc385fa5be3ac9",
         "type": "tabs",
         "children": [
           {
-            "id": "a737391eb0da06c0",
+            "id": "06036027a3198158",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -180,12 +180,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a737391eb0da06c0",
+  "active": "06036027a3198158",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "拟牛顿法.md",
     "小波变换.md",
     "fk滤波.md",
     "噪声降低方法在声波测井数据中的综合技术总结.md",
-    "conflict-files-obsidian-git.md",
     "Welcome.md"
   ]
 }
