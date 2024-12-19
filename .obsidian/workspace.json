@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d2e6f578e66dc57c",
+        "id": "cb49c644219a83fc",
         "type": "tabs",
         "children": [
           {
-            "id": "299c0f403d68eb90",
+            "id": "a737391eb0da06c0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "新标签页"
             }
           }
         ]
@@ -184,12 +180,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "299c0f403d68eb90",
+  "active": "a737391eb0da06c0",
   "lastOpenFiles": [
-    "fk滤波.md",
-    "conflict-files-obsidian-git.md",
-    "噪声降低方法在声波测井数据中的综合技术总结.md",
     "小波变换.md",
+    "fk滤波.md",
+    "噪声降低方法在声波测井数据中的综合技术总结.md",
+    "conflict-files-obsidian-git.md",
     "Welcome.md"
   ]
 }
