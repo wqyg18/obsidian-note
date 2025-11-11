@@ -1,0 +1,1 @@
+找到POB文件里面的setting.xml，然后将showFlavourText改为false
