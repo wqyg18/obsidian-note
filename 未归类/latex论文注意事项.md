@@ -1,1 +1,2 @@
 - cite，citet，citep的区别
+- 对于figure或者table, `\label`必须在`\caption`之后才会生效
