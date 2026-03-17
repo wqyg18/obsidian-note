@@ -1,0 +1,7 @@
+/* 针对特定 class 的 Callout 取消换行 */
+.callout[data-callout="no-wrap"] .callout-content {
+    white-space: pre !important;
+    overflow-x: auto !important;
+    font-family: var(--font-monospace); /* 使用等宽字体 (Monospace Font) */
+    display: block;
+}

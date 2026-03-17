@@ -1,4 +1,7 @@
 {
   "cssTheme": "Border",
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "custom-style"
+  ]
 }
