@@ -44,3 +44,34 @@ tree -L 2
 tree -a -L 1 -I .gitignore
 tree -a -L 1 -I ".gitignore|.git"
 ```
+
+可以安装一个`fzf`, 非常好用, 直接替换`Ctrl+r`
+```
+scoop install fzf
+```
+
+注册到`Ctrl+r`
+```powershell
+notepad $PROFILE
+```
+```ps1
+Set-PSReadLineKeyHandler -Chord Ctrl+r -ScriptBlock {
+    $historyPath = (Get-PSReadLineOption).HistorySavePath
+
+    if (Test-Path $historyPath) {
+        $command = Get-Content $historyPath |
+            Where-Object { $_.Trim() -ne "" } |
+            Get-Unique -AsString |
+            fzf --tac --height 40%
+
+        if ($command) {
+            [Microsoft.PowerShell.PSConsoleReadLine]::RevertLine()
+            [Microsoft.PowerShell.PSConsoleReadLine]::Insert($command)
+        }
+    }
+}
+```
+```powershell
+. $PROFILE
+```
+
