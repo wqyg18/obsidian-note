@@ -94,3 +94,43 @@ out = down_proj(hidden) # 行并行
   v
 每张 GPU 得到完整 out
 ```
+
+## 并行策略
+
+这些不同的linear, 就是执行的TP(tensor parallel)
+
+对于不同的layer, 比如某k个 hidden layer, 他们之间使用PP(Pipeline Parallel)
+
+
+Qwen3 dense 结构
+```powershell
+x
+│
+├─ residual = x
+│
+├─ input_layernorm / RMSNorm
+│
+├─ SelfAttention
+│     ├─ q_proj
+│     ├─ k_proj
+│     ├─ v_proj
+│     ├─ q_norm / k_norm
+│     ├─ RoPE 加到 Q/K 上
+│     ├─ causal attention / GQA / KV cache
+│     └─ o_proj
+│
+├─ x = residual + attention_out
+│
+├─ residual = x
+│
+├─ post_attention_layernorm / RMSNorm
+│
+├─ MLP / SwiGLU
+│     ├─ gate_up_proj: hidden_size -> 2 * intermediate_size
+│     ├─ split:
+│     │     gate, up
+│     ├─ SiLU(gate) * up
+│     └─ down_proj: intermediate_size -> hidden_size
+│
+└─ x = residual + mlp_out
+```
